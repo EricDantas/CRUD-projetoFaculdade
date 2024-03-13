@@ -1,8 +1,7 @@
 import "reflect-metadata";
-import express, { response } from "express";
+import express from "express";
 import "./database";
 import { routes } from "./routes";
-import { request } from "http";
 const cors = require('cors');
 
 const app = express();
